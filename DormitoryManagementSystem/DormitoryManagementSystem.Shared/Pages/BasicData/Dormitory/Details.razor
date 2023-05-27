@@ -1,0 +1,66 @@
+﻿
+@page "/BasicData/Dormitory/Details"
+@using DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<div>
+  <ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit" >
+    <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+      <Display @bind-Value="@Model.Entity.DormitoryNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.AvailableBed"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.SumBed"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.RoomNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.BedNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.StudentIDId"  ShowLabel="true" Lookup="AllStudentIDs"/>
+      <Display @bind-Value="@Model.Entity.CreateTime"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.UpdateTime"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.CreateBy"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.UpdateBy"  ShowLabel="true"/>
+    </Row>
+
+    <div class="modal-footer table-modal-footer">
+      <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+    </div>
+
+  </ValidateForm>
+
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private DormitoryVM Model = new DormitoryVM();
+    private ValidateForm vform { get; set; }
+    private async Task Submit(EditContext context)
+    {
+                        
+        
+        await PostsForm(vform, "/api/BasicData/Dormitory/Edit", (s) => "Sys.OprationSuccess");
+    }
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    private List<SelectedItem> AllStudentIDs = new List<SelectedItem>();
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+        AllStudentIDs = await WtmBlazor.Api.CallItemsApi("/api/BasicData/Dormitory/GetStudents");
+        AllStudentIDs.Insert(0, new SelectedItem { Text = WtmBlazor.Localizer["Sys.PleaseSelect"],Value = "" });
+        if (id != "")
+        {
+            var rv = await WtmBlazor.Api.CallAPI<DormitoryVM>($"/api/BasicData/Dormitory/{id}");
+            Model = rv.Data;
+        }
+
+        await base.OnInitializedAsync();
+    }
+}

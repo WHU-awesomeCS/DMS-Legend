@@ -1,0 +1,102 @@
+﻿
+@page "/Summary/_Default/DormitoryInfo"
+@using DormitoryManagementSystem.ViewModel.Summary
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+@attribute [ActionDescription("_Page.Summary..DormitoryInfo")]
+
+<Row ItemsPerRow="ItemsPerRow.One" RowType="RowType.Normal">
+  <Card>
+   <HeaderTemplate>@WtmBlazor.Localizer["Page.宿舍学生人数"]</HeaderTemplate>
+   <BodyTemplate>
+    <Chart ChartType="ChartType.Bar" OnInitAsync="@GetChartDatag3727868645" @ref="chartg3727868645" Id="g3727868645"/>
+   </BodyTemplate>
+  </Card>
+
+</Row>
+
+<Row ItemsPerRow="ItemsPerRow.One" RowType="RowType.Normal">
+  <Card>
+   <HeaderTemplate>@WtmBlazor.Localizer["Page.宿舍可用床位数"]</HeaderTemplate>
+   <BodyTemplate>
+    <Chart ChartType="ChartType.Line" OnInitAsync="@GetChartDatag2718094403" @ref="chartg2718094403" Id="g2718094403"/>
+   </BodyTemplate>
+  </Card>
+
+</Row>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private DormitoryInfoGroupVM Model = new DormitoryInfoGroupVM();
+    private Chart chartg3727868645 { get; set; }
+    
+    private async Task<ChartDataSource> GetChartDatag3727868645()
+    {
+
+        var ds = new ChartDataSource();
+        var data = await WtmBlazor.Api.CallAPI<List<ChartData>>("/api/Summary/_Default/GetChartDatag3727868645", HttpMethodEnum.POST,Model);
+        if (data.Data != null && data.Data.Count > 0)
+        {
+            var cd = data.Data;
+            string[] series = cd.Select(x => x.Series).Distinct().ToArray();
+            string[] categorys = cd.Select(x => x.Category).Distinct().ToArray();
+            var yCount = cd.GroupBy(x => x.Series).ToList();
+            
+            ds.Options.X.Title = @WtmBlazor.Localizer["Page.宿舍号"];
+            ds.Options.Y.Title = @WtmBlazor.Localizer["Page.学生学号"];
+            ds.Labels = categorys;
+            foreach (var item in yCount)
+            {
+                ds.Data.Add(new ChartDataset()
+                {
+                    Label = item.Key,
+                    Data = item.Select(x => x.Value.ToString())
+                });
+            }
+        }
+        return ds;
+    }
+
+    private Chart chartg2718094403 { get; set; }
+    
+    private async Task<ChartDataSource> GetChartDatag2718094403()
+    {
+
+        var ds = new ChartDataSource();
+        var data = await WtmBlazor.Api.CallAPI<List<ChartData>>("/api/Summary/_Default/GetChartDatag2718094403", HttpMethodEnum.POST,Model);
+        if (data.Data != null && data.Data.Count > 0)
+        {
+            var cd = data.Data;
+            string[] series = cd.Select(x => x.Series).Distinct().ToArray();
+            string[] categorys = cd.Select(x => x.Category).Distinct().ToArray();
+            var yCount = cd.GroupBy(x => x.Series).ToList();
+            
+            ds.Options.X.Title = @WtmBlazor.Localizer["Page.宿舍号"];
+            ds.Options.Y.Title = @WtmBlazor.Localizer["Page.可用床位数"];
+            ds.Labels = categorys;
+            foreach (var item in yCount)
+            {
+                ds.Data.Add(new ChartDataset()
+                {
+                    Label = item.Key,
+                    Data = item.Select(x => x.Value.ToString())
+                });
+            }
+        }
+        return ds;
+    }
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

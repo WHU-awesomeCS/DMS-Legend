@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="6.0.5" />
+    <PackageReference Include="WalkingTec.Mvvm.Mvc" Version="6.3.24" />
+   <ProjectReference Include="..\DormitoryManagementSystem.Client\DormitoryManagementSystem.Client.csproj" />
+   <ProjectReference Include="..\DormitoryManagementSystem.Shared\DormitoryManagementSystem.Shared.csproj" />
+    <ProjectReference Include="..\DormitoryManagementSystem.DataAccess\DormitoryManagementSystem.DataAccess.csproj" />
+</ItemGroup>
+</Project>
+

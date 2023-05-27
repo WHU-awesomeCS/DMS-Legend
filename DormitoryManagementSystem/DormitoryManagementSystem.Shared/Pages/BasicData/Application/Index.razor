@@ -1,0 +1,192 @@
+﻿
+@page "/BasicData/Application/Index"
+@using DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+@attribute [ActionDescription("_Page.BasicData.Application.Index", "DormitoryManagementSystem.BasicData.Controllers,Application")]
+
+<WTSearchPanel OnSearch="@ApplicationListVMDoSearch">
+  <ValidateForm Model="@Model">
+    <Row ItemsPerRow="ItemsPerRow.Three" RowType="RowType.Inline">
+      <Select @bind-Value="@Model.Searcher.AppType" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="gbd94114b6eb74611bf347610955ffb2e"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.AppliName"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.IdentityID"/>
+      <WTDateRange @bind-Value="@Model.Searcher.StatTime"/>
+      <WTDateRange @bind-Value="@Model.Searcher.EndTime"/>
+      <Select @bind-Value="@Model.Searcher.StatusProcess" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="g290de3d1ebfd47dca15295054ca209e0"/>
+      <WTDateRange @bind-Value="@Model.Searcher.CreateTime"/>
+      <WTDateRange @bind-Value="@Model.Searcher.UpdateTime"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.CreateBy"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.UpdateBy"/>
+    </Row>
+
+  </ValidateForm>
+</WTSearchPanel>
+
+
+<Table @ref="ApplicationListVMdataTable" TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View" OnQueryAsync="ApplicationListVMOnSearchApplication" 
+                IsStriped="true" IsBordered="true" ShowRefresh="false" ShowExtendEditButton="false" ShowExtendDeleteButton="false" 
+                ShowToolbar="true" IsMultipleSelect="true" ShowExtendButtons="true"
+                ShowDefaultButtons="false" IsPagination="true">
+  <TableColumns>
+    <TableColumn @bind-Field="@context.Application_AppType" Text="@WtmBlazor.Localizer["Page.申请类型"]" />
+    <TableColumn @bind-Field="@context.Application_AppliName" Text="@WtmBlazor.Localizer["Page.申请人姓名"]" />
+    <TableColumn @bind-Field="@context.Application_IdentityID" Text="@WtmBlazor.Localizer["Page.身份证号"]" />
+    <TableColumn @bind-Field="@context.Application_StatTime" Text="@WtmBlazor.Localizer["Page.开始时间"]" />
+    <TableColumn @bind-Field="@context.Application_EndTime" Text="@WtmBlazor.Localizer["Page.结束时间"]" />
+    <TableColumn @bind-Field="@context.Application_StatusProcess" Text="@WtmBlazor.Localizer["Page.申请状态"]" />
+    <TableColumn @bind-Field="@context.Application_CreateTime" Text="@WtmBlazor.Localizer["_Admin.CreateTime"]" />
+    <TableColumn @bind-Field="@context.Application_UpdateTime" Text="@WtmBlazor.Localizer["_Admin.UpdateTime"]" />
+    <TableColumn @bind-Field="@context.Application_CreateBy" Text="@WtmBlazor.Localizer["_Admin.CreateBy"]" />
+    <TableColumn @bind-Field="@context.Application_UpdateBy" Text="@WtmBlazor.Localizer["_Admin.UpdateBy"]" />
+  </TableColumns>
+
+  <RowButtonTemplate>
+    @if (IsAccessable("/api/BasicData/Application/Edit"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-pencil-square" Color="Color.Warning" Text="@WtmBlazor.Localizer["Sys.Edit"]"  OnClick="()=>OnEditClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Application/{id}"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-info-circle" Color="Color.Info" Text="@WtmBlazor.Localizer["Page.详情"]"  OnClick="()=>OnDetailsClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Application/BatchDelete"))
+    {
+        <PopConfirmButton OnConfirm="() => OnDeleteClick(context)" Size="Size.ExtraSmall" Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.DeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.Delete"]" 
+            ConfirmButtonColor="Color.Danger" />
+    }
+  </RowButtonTemplate>
+  <TableToolbarTemplate>
+    @if (IsAccessable("/api/BasicData/Application/Create"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View" Icon="fa fa-plus" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Create"]"  OnClickCallback="(x)=>OnCreateClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Application/BatchDelete"))
+    {
+        <TableToolbarPopconfirmButton TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View"
+             Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.BatchDeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.BatchDelete"]" 
+            OnConfirm="@OnBatchDeleteClick" ConfirmButtonColor="Color.Danger"/>
+    }
+    @if (IsAccessable("/api/BasicData/Application/BatchEdit"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View" Icon="fa fa-pencil-square" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.BatchEdit"]"  OnClickCallback="(x)=>OnBatchEditClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Application/Import"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View" Icon="fa fa-tasks" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Import"]"  OnClickCallback="(x)=>OnImportClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Application/ApplicationExportExcel"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View" Icon="fa fa-arrow-circle-down" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Export"]" OnClickCallback="(x)=>OnExportClick()" IsAsync="true" />
+    }
+  </TableToolbarTemplate>
+
+</Table>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private ApplicationListVM Model = new ApplicationListVM();
+    private Table<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View> ApplicationListVMdataTable;
+    private async Task ApplicationListVMDoSearch()
+    {
+        await ApplicationListVMdataTable.QueryAsync();
+    }
+    private async Task<QueryData<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View>> ApplicationListVMOnSearchApplication(QueryPageOptions opts)
+    {
+            
+        return await StartSearch<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View>("/api/BasicData/Application/SearchApplication", Model.Searcher, opts);
+    }
+    private async Task OnCreateClick()
+    {
+        var id = ApplicationListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Create>(@WtmBlazor.Localizer["Sys.Create"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await ApplicationListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnEditClick(DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View item)
+    {
+        if (await OpenDialog<Edit>(@WtmBlazor.Localizer["Sys.Edit"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await ApplicationListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDetailsClick(DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View item)
+    {
+        if (await OpenDialog<Details>(@WtmBlazor.Localizer["Page.详情"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await ApplicationListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDeleteClick(DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.Application_View item)
+    {
+        await PostsData(new List<string> { item.ID.ToString() }, $"/api/BasicData/Application/batchdelete", (s) => "Sys.OprationSuccess");
+        await ApplicationListVMdataTable.QueryAsync();
+    }
+
+    private async Task OnBatchDeleteClick()
+    {
+        if (ApplicationListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await PostsData(ApplicationListVMdataTable.SelectedRows.Select(x => x.ID).ToList(), $"/api/BasicData/Application/batchdelete", (s) => WtmBlazor.Localizer["Sys.BatchDeleteSuccess", s]);
+            await ApplicationListVMdataTable.QueryAsync();
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnBatchEditClick()
+    {
+        if (ApplicationListVMdataTable.SelectedRows?.Any() == true)
+        {
+            if (await OpenDialog<BatchEdit>(WtmBlazor.Localizer["Sys.BatchEdit"], x => x.ids == ApplicationListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToArray(), isMax:false) == DialogResult.Yes)
+            {
+                await ApplicationListVMdataTable.QueryAsync();
+            }
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnImportClick()
+    {
+        var id = ApplicationListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Import>(@WtmBlazor.Localizer["Sys.Import"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await ApplicationListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnExportClick()
+    {
+        if (ApplicationListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await Download("/api/BasicData/Application/ApplicationExportExcelByIds", ApplicationListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToList());
+        }
+        else
+        {
+            await Download("/api/BasicData/Application/ApplicationExportExcel", Model.Searcher);
+        }
+    }
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

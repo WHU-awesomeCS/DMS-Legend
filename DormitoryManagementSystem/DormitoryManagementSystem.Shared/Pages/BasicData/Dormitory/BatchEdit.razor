@@ -1,0 +1,54 @@
+﻿
+@page "/BasicData/Dormitory/BatchEdit"
+@using DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit">
+  <div style="margin-bottom:10px;"> @WtmBlazor.Localizer["Sys.BatchEditConfirm"]</div>
+  <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+    <BootstrapInput @bind-Value="@Model.LinkedVM.AvailableBed"/>
+    <BootstrapInput @bind-Value="@Model.LinkedVM.SumBed"/>
+    <Select @bind-Value="@Model.LinkedVM.StudentIDId" Items="AllStudentIDs" Id="g1e41a2784e5b40c082611387927f3af7"/>
+  </Row>
+
+  <div class="modal-footer table-modal-footer">
+    <Button ButtonType="ButtonType.Submit" IsAsync="true" Text="@WtmBlazor.Localizer["Sys.Submit"]"/>
+    <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+  </div>
+
+</ValidateForm>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private DormitoryBatchVM Model = new DormitoryBatchVM();
+    private ValidateForm vform { get; set; }
+    
+    private async Task Submit(EditContext context)
+    {
+        Model.Ids = ids;
+        await PostsForm(vform, "/api/BasicData/Dormitory/BatchEdit", (s) => WtmBlazor.Localizer["Sys.BatchEditSuccess", s], method: HttpMethodEnum.POST);
+    }
+            
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    private List<SelectedItem> AllStudentIDs = new List<SelectedItem>();
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+        AllStudentIDs = await WtmBlazor.Api.CallItemsApi("/api/BasicData/Dormitory/GetStudents");
+        AllStudentIDs.Insert(0, new SelectedItem { Text = WtmBlazor.Localizer["Sys.PleaseSelect"],Value = "" });
+
+        await base.OnInitializedAsync();
+    }
+}

@@ -1,0 +1,195 @@
+﻿
+@page "/BasicData/Dormitory/Index"
+@using DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+@attribute [ActionDescription("_Page.BasicData.Dormitory.Index", "DormitoryManagementSystem.BasicData.Controllers,Dormitory")]
+
+<WTSearchPanel OnSearch="@DormitoryListVMDoSearch">
+  <ValidateForm Model="@Model">
+    <Row ItemsPerRow="ItemsPerRow.Three" RowType="RowType.Inline">
+      <BootstrapInput @bind-Value="@Model.Searcher.DormitoryNum"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.AvailableBed"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.SumBed"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.RoomNum"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.BedNum"/>
+      <Select @bind-Value="@Model.Searcher.StudentIDId" Items="AllStudentIDs" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="gbb7229ff583046d18fa00401cd1a0d99"/>
+      <WTDateRange @bind-Value="@Model.Searcher.CreateTime"/>
+      <WTDateRange @bind-Value="@Model.Searcher.UpdateTime"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.CreateBy"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.UpdateBy"/>
+    </Row>
+
+  </ValidateForm>
+</WTSearchPanel>
+
+
+<Table @ref="DormitoryListVMdataTable" TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View" OnQueryAsync="DormitoryListVMOnSearchDormitory" 
+                IsStriped="true" IsBordered="true" ShowRefresh="false" ShowExtendEditButton="false" ShowExtendDeleteButton="false" 
+                ShowToolbar="true" IsMultipleSelect="true" ShowExtendButtons="true"
+                ShowDefaultButtons="false" IsPagination="true">
+  <TableColumns>
+    <TableColumn @bind-Field="@context.Dormitory_DormitoryNum" Text="@WtmBlazor.Localizer["Page.宿舍号"]" />
+    <TableColumn @bind-Field="@context.Dormitory_AvailableBed" Text="@WtmBlazor.Localizer["Page.可用床位数"]" />
+    <TableColumn @bind-Field="@context.Dormitory_SumBed" Text="@WtmBlazor.Localizer["Page.总床位数"]" />
+    <TableColumn @bind-Field="@context.Dormitory_RoomNum" Text="@WtmBlazor.Localizer["Page.房间号"]" />
+    <TableColumn @bind-Field="@context.Dormitory_BedNum" Text="@WtmBlazor.Localizer["Page.床位号"]" />
+    <TableColumn @bind-Field="@context.Dormitory_StudentID" Text="@WtmBlazor.Localizer["Page.学生学号"]" />
+    <TableColumn @bind-Field="@context.Dormitory_CreateTime" Text="@WtmBlazor.Localizer["_Admin.CreateTime"]" />
+    <TableColumn @bind-Field="@context.Dormitory_UpdateTime" Text="@WtmBlazor.Localizer["_Admin.UpdateTime"]" />
+    <TableColumn @bind-Field="@context.Dormitory_CreateBy" Text="@WtmBlazor.Localizer["_Admin.CreateBy"]" />
+    <TableColumn @bind-Field="@context.Dormitory_UpdateBy" Text="@WtmBlazor.Localizer["_Admin.UpdateBy"]" />
+  </TableColumns>
+
+  <RowButtonTemplate>
+    @if (IsAccessable("/api/BasicData/Dormitory/Edit"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-pencil-square" Color="Color.Warning" Text="@WtmBlazor.Localizer["Sys.Edit"]"  OnClick="()=>OnEditClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/{id}"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-info-circle" Color="Color.Info" Text="@WtmBlazor.Localizer["Page.详情"]"  OnClick="()=>OnDetailsClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/BatchDelete"))
+    {
+        <PopConfirmButton OnConfirm="() => OnDeleteClick(context)" Size="Size.ExtraSmall" Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.DeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.Delete"]" 
+            ConfirmButtonColor="Color.Danger" />
+    }
+  </RowButtonTemplate>
+  <TableToolbarTemplate>
+    @if (IsAccessable("/api/BasicData/Dormitory/Create"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View" Icon="fa fa-plus" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Create"]"  OnClickCallback="(x)=>OnCreateClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/BatchDelete"))
+    {
+        <TableToolbarPopconfirmButton TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View"
+             Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.BatchDeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.BatchDelete"]" 
+            OnConfirm="@OnBatchDeleteClick" ConfirmButtonColor="Color.Danger"/>
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/BatchEdit"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View" Icon="fa fa-pencil-square" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.BatchEdit"]"  OnClickCallback="(x)=>OnBatchEditClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/Import"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View" Icon="fa fa-tasks" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Import"]"  OnClickCallback="(x)=>OnImportClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Dormitory/DormitoryExportExcel"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View" Icon="fa fa-arrow-circle-down" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Export"]" OnClickCallback="(x)=>OnExportClick()" IsAsync="true" />
+    }
+  </TableToolbarTemplate>
+
+</Table>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private DormitoryListVM Model = new DormitoryListVM();
+    private Table<DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View> DormitoryListVMdataTable;
+    private async Task DormitoryListVMDoSearch()
+    {
+        await DormitoryListVMdataTable.QueryAsync();
+    }
+    private async Task<QueryData<DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View>> DormitoryListVMOnSearchDormitory(QueryPageOptions opts)
+    {
+            
+        return await StartSearch<DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View>("/api/BasicData/Dormitory/SearchDormitory", Model.Searcher, opts);
+    }
+    private async Task OnCreateClick()
+    {
+        var id = DormitoryListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Create>(@WtmBlazor.Localizer["Sys.Create"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await DormitoryListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnEditClick(DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View item)
+    {
+        if (await OpenDialog<Edit>(@WtmBlazor.Localizer["Sys.Edit"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await DormitoryListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDetailsClick(DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View item)
+    {
+        if (await OpenDialog<Details>(@WtmBlazor.Localizer["Page.详情"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await DormitoryListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDeleteClick(DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs.Dormitory_View item)
+    {
+        await PostsData(new List<string> { item.ID.ToString() }, $"/api/BasicData/Dormitory/batchdelete", (s) => "Sys.OprationSuccess");
+        await DormitoryListVMdataTable.QueryAsync();
+    }
+
+    private async Task OnBatchDeleteClick()
+    {
+        if (DormitoryListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await PostsData(DormitoryListVMdataTable.SelectedRows.Select(x => x.ID).ToList(), $"/api/BasicData/Dormitory/batchdelete", (s) => WtmBlazor.Localizer["Sys.BatchDeleteSuccess", s]);
+            await DormitoryListVMdataTable.QueryAsync();
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnBatchEditClick()
+    {
+        if (DormitoryListVMdataTable.SelectedRows?.Any() == true)
+        {
+            if (await OpenDialog<BatchEdit>(WtmBlazor.Localizer["Sys.BatchEdit"], x => x.ids == DormitoryListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToArray(), isMax:false) == DialogResult.Yes)
+            {
+                await DormitoryListVMdataTable.QueryAsync();
+            }
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnImportClick()
+    {
+        var id = DormitoryListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Import>(@WtmBlazor.Localizer["Sys.Import"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await DormitoryListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnExportClick()
+    {
+        if (DormitoryListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await Download("/api/BasicData/Dormitory/DormitoryExportExcelByIds", DormitoryListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToList());
+        }
+        else
+        {
+            await Download("/api/BasicData/Dormitory/DormitoryExportExcel", Model.Searcher);
+        }
+    }
+
+    
+    private List<SelectedItem> AllStudentIDs = new List<SelectedItem>();
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+        AllStudentIDs = await WtmBlazor.Api.CallItemsApi("/api/BasicData/Dormitory/GetStudents");
+        AllStudentIDs.Insert(0, new SelectedItem { Text = WtmBlazor.Localizer["Sys.PleaseSelect"],Value = "" });
+
+        await base.OnInitializedAsync();
+    }
+}

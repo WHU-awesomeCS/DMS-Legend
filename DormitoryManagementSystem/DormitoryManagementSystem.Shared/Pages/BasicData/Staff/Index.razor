@@ -1,0 +1,192 @@
+﻿
+@page "/BasicData/Staff/Index"
+@using DormitoryManagementSystem.ViewModel.BasicData.StaffVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+@attribute [ActionDescription("_Page.BasicData.Staff.Index", "DormitoryManagementSystem.BasicData.Controllers,Staff")]
+
+<WTSearchPanel OnSearch="@StaffListVMDoSearch">
+  <ValidateForm Model="@Model">
+    <Row ItemsPerRow="ItemsPerRow.Three" RowType="RowType.Inline">
+      <BootstrapInput @bind-Value="@Model.Searcher.WorkID"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.Name"/>
+      <Select @bind-Value="@Model.Searcher.Sector" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="g9efc905caeec4665bf2144b80047b11b"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.Telephone"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.Email"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.DormitoryNum"/>
+      <WTDateRange @bind-Value="@Model.Searcher.CreateTime"/>
+      <WTDateRange @bind-Value="@Model.Searcher.UpdateTime"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.CreateBy"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.UpdateBy"/>
+    </Row>
+
+  </ValidateForm>
+</WTSearchPanel>
+
+
+<Table @ref="StaffListVMdataTable" TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View" OnQueryAsync="StaffListVMOnSearchStaff" 
+                IsStriped="true" IsBordered="true" ShowRefresh="false" ShowExtendEditButton="false" ShowExtendDeleteButton="false" 
+                ShowToolbar="true" IsMultipleSelect="true" ShowExtendButtons="true"
+                ShowDefaultButtons="false" IsPagination="true">
+  <TableColumns>
+    <TableColumn @bind-Field="@context.Staff_WorkID" Text="@WtmBlazor.Localizer["Page.工号"]" />
+    <TableColumn @bind-Field="@context.Staff_Name" Text="@WtmBlazor.Localizer["_Admin.Name"]" />
+    <TableColumn @bind-Field="@context.Staff_Sector" Text="@WtmBlazor.Localizer["Page.部门"]" />
+    <TableColumn @bind-Field="@context.Staff_Telephone" Text="@WtmBlazor.Localizer["Page.电话"]" />
+    <TableColumn @bind-Field="@context.Staff_Email" Text="@WtmBlazor.Localizer["_Admin.Email"]" />
+    <TableColumn @bind-Field="@context.Staff_DormitoryNum" Text="@WtmBlazor.Localizer["Page.管理宿舍号"]" />
+    <TableColumn @bind-Field="@context.Staff_CreateTime" Text="@WtmBlazor.Localizer["_Admin.CreateTime"]" />
+    <TableColumn @bind-Field="@context.Staff_UpdateTime" Text="@WtmBlazor.Localizer["_Admin.UpdateTime"]" />
+    <TableColumn @bind-Field="@context.Staff_CreateBy" Text="@WtmBlazor.Localizer["_Admin.CreateBy"]" />
+    <TableColumn @bind-Field="@context.Staff_UpdateBy" Text="@WtmBlazor.Localizer["_Admin.UpdateBy"]" />
+  </TableColumns>
+
+  <RowButtonTemplate>
+    @if (IsAccessable("/api/BasicData/Staff/Edit"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-pencil-square" Color="Color.Warning" Text="@WtmBlazor.Localizer["Sys.Edit"]"  OnClick="()=>OnEditClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Staff/{id}"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-info-circle" Color="Color.Info" Text="@WtmBlazor.Localizer["Page.详情"]"  OnClick="()=>OnDetailsClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Staff/BatchDelete"))
+    {
+        <PopConfirmButton OnConfirm="() => OnDeleteClick(context)" Size="Size.ExtraSmall" Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.DeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.Delete"]" 
+            ConfirmButtonColor="Color.Danger" />
+    }
+  </RowButtonTemplate>
+  <TableToolbarTemplate>
+    @if (IsAccessable("/api/BasicData/Staff/Create"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View" Icon="fa fa-plus" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Create"]"  OnClickCallback="(x)=>OnCreateClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Staff/BatchDelete"))
+    {
+        <TableToolbarPopconfirmButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View"
+             Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.BatchDeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.BatchDelete"]" 
+            OnConfirm="@OnBatchDeleteClick" ConfirmButtonColor="Color.Danger"/>
+    }
+    @if (IsAccessable("/api/BasicData/Staff/BatchEdit"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View" Icon="fa fa-pencil-square" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.BatchEdit"]"  OnClickCallback="(x)=>OnBatchEditClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Staff/Import"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View" Icon="fa fa-tasks" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Import"]"  OnClickCallback="(x)=>OnImportClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Staff/StaffExportExcel"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View" Icon="fa fa-arrow-circle-down" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Export"]" OnClickCallback="(x)=>OnExportClick()" IsAsync="true" />
+    }
+  </TableToolbarTemplate>
+
+</Table>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private StaffListVM Model = new StaffListVM();
+    private Table<DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View> StaffListVMdataTable;
+    private async Task StaffListVMDoSearch()
+    {
+        await StaffListVMdataTable.QueryAsync();
+    }
+    private async Task<QueryData<DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View>> StaffListVMOnSearchStaff(QueryPageOptions opts)
+    {
+            
+        return await StartSearch<DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View>("/api/BasicData/Staff/SearchStaff", Model.Searcher, opts);
+    }
+    private async Task OnCreateClick()
+    {
+        var id = StaffListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Create>(@WtmBlazor.Localizer["Sys.Create"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await StaffListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnEditClick(DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View item)
+    {
+        if (await OpenDialog<Edit>(@WtmBlazor.Localizer["Sys.Edit"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await StaffListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDetailsClick(DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View item)
+    {
+        if (await OpenDialog<Details>(@WtmBlazor.Localizer["Page.详情"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await StaffListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDeleteClick(DormitoryManagementSystem.ViewModel.BasicData.StaffVMs.Staff_View item)
+    {
+        await PostsData(new List<string> { item.ID.ToString() }, $"/api/BasicData/Staff/batchdelete", (s) => "Sys.OprationSuccess");
+        await StaffListVMdataTable.QueryAsync();
+    }
+
+    private async Task OnBatchDeleteClick()
+    {
+        if (StaffListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await PostsData(StaffListVMdataTable.SelectedRows.Select(x => x.ID).ToList(), $"/api/BasicData/Staff/batchdelete", (s) => WtmBlazor.Localizer["Sys.BatchDeleteSuccess", s]);
+            await StaffListVMdataTable.QueryAsync();
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnBatchEditClick()
+    {
+        if (StaffListVMdataTable.SelectedRows?.Any() == true)
+        {
+            if (await OpenDialog<BatchEdit>(WtmBlazor.Localizer["Sys.BatchEdit"], x => x.ids == StaffListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToArray(), isMax:false) == DialogResult.Yes)
+            {
+                await StaffListVMdataTable.QueryAsync();
+            }
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnImportClick()
+    {
+        var id = StaffListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Import>(@WtmBlazor.Localizer["Sys.Import"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await StaffListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnExportClick()
+    {
+        if (StaffListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await Download("/api/BasicData/Staff/StaffExportExcelByIds", StaffListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToList());
+        }
+        else
+        {
+            await Download("/api/BasicData/Staff/StaffExportExcel", Model.Searcher);
+        }
+    }
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

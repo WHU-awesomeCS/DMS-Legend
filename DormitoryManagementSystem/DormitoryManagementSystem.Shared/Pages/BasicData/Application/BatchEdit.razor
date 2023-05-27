@@ -1,0 +1,52 @@
+﻿
+@page "/BasicData/Application/BatchEdit"
+@using DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit">
+  <div style="margin-bottom:10px;"> @WtmBlazor.Localizer["Sys.BatchEditConfirm"]</div>
+  <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+    <Select @bind-Value="@Model.LinkedVM.AppType" Id="ge0086ea04c6d4106bfe1562d2d4ecd92"/>
+    <DateTimePicker @bind-Value="@Model.LinkedVM.StatTime"/>
+    <DateTimePicker @bind-Value="@Model.LinkedVM.EndTime"/>
+    <Select @bind-Value="@Model.LinkedVM.StatusProcess" Id="gc8f67756bc6f457087727f002e57844a"/>
+  </Row>
+
+  <div class="modal-footer table-modal-footer">
+    <Button ButtonType="ButtonType.Submit" IsAsync="true" Text="@WtmBlazor.Localizer["Sys.Submit"]"/>
+    <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+  </div>
+
+</ValidateForm>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private ApplicationBatchVM Model = new ApplicationBatchVM();
+    private ValidateForm vform { get; set; }
+    
+    private async Task Submit(EditContext context)
+    {
+        Model.Ids = ids;
+        await PostsForm(vform, "/api/BasicData/Application/BatchEdit", (s) => WtmBlazor.Localizer["Sys.BatchEditSuccess", s], method: HttpMethodEnum.POST);
+    }
+            
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

@@ -1,0 +1,55 @@
+﻿
+@page "/BasicData/Application/Create"
+@using DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<div>
+  <ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit" >
+    <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+      <Select @bind-Value="@Model.Entity.AppType" PlaceHolder="@WtmBlazor.Localizer["Sys.PleaseSelect"]" Id="gf2e671ff947a4e5182af0877538dcd5d"/>
+      <BootstrapInput @bind-Value="@Model.Entity.AppliName"/>
+      <BootstrapInput @bind-Value="@Model.Entity.IdentityID"/>
+      <DateTimePicker @bind-Value="@Model.Entity.StatTime"/>
+      <DateTimePicker @bind-Value="@Model.Entity.EndTime"/>
+      <Select @bind-Value="@Model.Entity.StatusProcess" PlaceHolder="@WtmBlazor.Localizer["Sys.PleaseSelect"]" Id="g234ca33d37704887a774c729f012478b"/>
+    </Row>
+
+    <div class="modal-footer table-modal-footer">
+      <Button ButtonType="ButtonType.Submit" IsAsync="true" Text="@WtmBlazor.Localizer["Sys.Submit"]"/>
+      <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+    </div>
+
+  </ValidateForm>
+
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private ApplicationVM Model = new ApplicationVM();
+    private ValidateForm vform { get; set; }
+    private async Task Submit(EditContext context)
+    {
+                        
+        
+        await PostsForm(vform, "/api/BasicData/Application/Create", (s) => "Sys.OprationSuccess");
+    }
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

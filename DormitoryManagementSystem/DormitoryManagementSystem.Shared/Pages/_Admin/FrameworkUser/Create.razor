@@ -1,0 +1,79 @@
+﻿
+@page "/_Admin/FrameworkUser/Create"
+@using DormitoryManagementSystem.ViewModel._Admin.FrameworkUserVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit" >
+  <Tab IsBorderCard="true">
+    <TabItem Text="@WtmBlazor.Localizer["_Admin.BasicInfo"]">
+      <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+        <BootstrapInput @bind-Value="@Model.Entity.ITCode"/>
+        <BootstrapInput @bind-Value="@Model.Entity.Password"/>
+        <BootstrapInput @bind-Value="@Model.Entity.Name"/>
+        <Switch @bind-Value="@Model.Entity.IsValid"/>
+        <WTUploadImage @bind-Value="@Model.Entity.PhotoId" thumb-width="128"/>
+      </Row>
+
+      <Row ItemsPerRow="ItemsPerRow.One" RowType="RowType.Normal">
+        <CheckboxList @bind-Value="@Model.SelectedFrameworkUserRolesIDs" Items="AllFrameworkUserRoles" DisplayText="@WtmBlazor.Localizer["_Admin.Role"]"/>
+        <MultiSelect @bind-Value="@Model.SelectedFrameworkUserGroupsIDs" Items="AllFrameworkUserGroups" DisplayText="@WtmBlazor.Localizer["_Admin.Group"]" PlaceHolder="@WtmBlazor.Localizer["Sys.PleaseSelect"]"/>
+      </Row>
+
+    </TabItem>
+
+    <TabItem Text="@WtmBlazor.Localizer["Sys.ExtraInfo"]">
+      <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+        <BootstrapInput @bind-Value="@Model.Entity.Email"/>
+        <Select @bind-Value="@Model.Entity.Gender" PlaceHolder="@WtmBlazor.Localizer["Sys.PleaseSelect"]"/>
+        <BootstrapInput @bind-Value="@Model.Entity.CellPhone"/>
+        <BootstrapInput @bind-Value="@Model.Entity.HomePhone"/>
+        <BootstrapInput @bind-Value="@Model.Entity.Address"/>
+        <BootstrapInput @bind-Value="@Model.Entity.ZipCode"/>
+      </Row>
+
+    </TabItem>
+
+  </Tab>
+
+  <div class="modal-footer table-modal-footer">
+    <Button ButtonType="ButtonType.Submit" IsAsync="true" Text="@WtmBlazor.Localizer["Sys.Submit"]"/>
+    <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+  </div>
+
+</ValidateForm>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private FrameworkUserVM Model = new FrameworkUserVM();
+    private ValidateForm vform { get; set; }
+    private async Task Submit(EditContext context)
+    {
+                        
+        
+        await PostsForm(vform, "/api/_Admin/FrameworkUser/Create", (s) => "Sys.OprationSuccess");
+    }
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    private List<SelectedItem> AllFrameworkUserRoles = new List<SelectedItem>();
+    private List<SelectedItem> AllFrameworkUserGroups = new List<SelectedItem>();
+    protected override async Task OnInitializedAsync()
+    {
+        Model.Entity.IsValid= true;
+        
+        
+        AllFrameworkUserRoles = await WtmBlazor.Api.CallItemsApi("/api/_Admin/FrameworkUser/GetFrameworkRoles");
+        AllFrameworkUserGroups = await WtmBlazor.Api.CallItemsApi("/api/_Admin/FrameworkUser/GetFrameworkGroups");
+
+        await base.OnInitializedAsync();
+    }
+}

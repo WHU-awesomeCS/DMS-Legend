@@ -1,0 +1,63 @@
+﻿
+@page "/BasicData/Dormitory/Edit"
+@using DormitoryManagementSystem.ViewModel.BasicData.DormitoryVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<div>
+  <ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit" >
+    <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+      <BootstrapInput @bind-Value="@Model.Entity.DormitoryNum"/>
+      <BootstrapInput @bind-Value="@Model.Entity.AvailableBed"/>
+      <BootstrapInput @bind-Value="@Model.Entity.SumBed"/>
+      <BootstrapInput @bind-Value="@Model.Entity.RoomNum"/>
+      <BootstrapInput @bind-Value="@Model.Entity.BedNum"/>
+      <Select @bind-Value="@Model.Entity.StudentIDId" Items="AllStudentIDs" PlaceHolder="@WtmBlazor.Localizer["Sys.PleaseSelect"]" Id="g20a02cd88ff5483ca4fa326b687bbf15"/>
+    </Row>
+
+    <div class="modal-footer table-modal-footer">
+      <Button ButtonType="ButtonType.Submit" IsAsync="true" Text="@WtmBlazor.Localizer["Sys.Submit"]"/>
+      <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+    </div>
+
+  </ValidateForm>
+
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private DormitoryVM Model = new DormitoryVM();
+    private ValidateForm vform { get; set; }
+    private async Task Submit(EditContext context)
+    {
+                        
+        
+        await PostsForm(vform, "/api/BasicData/Dormitory/Edit", (s) => "Sys.OprationSuccess", method: HttpMethodEnum.PUT);
+    }
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    private List<SelectedItem> AllStudentIDs = new List<SelectedItem>();
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+        AllStudentIDs = await WtmBlazor.Api.CallItemsApi("/api/BasicData/Dormitory/GetStudents");
+        AllStudentIDs.Insert(0, new SelectedItem { Text = WtmBlazor.Localizer["Sys.PleaseSelect"],Value = "" });
+        if (id != "")
+        {
+            var rv = await WtmBlazor.Api.CallAPI<DormitoryVM>($"/api/BasicData/Dormitory/{id}");
+            Model = rv.Data;
+        }
+
+        await base.OnInitializedAsync();
+    }
+}

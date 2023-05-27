@@ -1,0 +1,202 @@
+﻿
+@page "/BasicData/Student/Index"
+@using DormitoryManagementSystem.ViewModel.BasicData.StudentVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+@attribute [ActionDescription("_Page.BasicData.Student.Index", "DormitoryManagementSystem.BasicData.Controllers,Student")]
+
+<WTSearchPanel OnSearch="@StudentListVMDoSearch">
+  <ValidateForm Model="@Model">
+    <Row ItemsPerRow="ItemsPerRow.Three" RowType="RowType.Inline">
+      <BootstrapInput @bind-Value="@Model.Searcher.StudentName"/>
+      <Select @bind-Value="@Model.Searcher.Department" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="gc34f299c7d244e5497ad9e423c61f610"/>
+      <Select @bind-Value="@Model.Searcher.Gender" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="g68fdc870769e41bf8432d5cb55047cb7"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.BirthDate"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.Telephone"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.DormitoryNum"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.RoomNum"/>
+      <Select @bind-Value="@Model.Searcher.WhetherLeave" Items="@WtmBlazor.GlobalSelectItems.SearcherBoolItems" PlaceHolder="@WtmBlazor.Localizer["Sys.All"]" Id="g7eb2b0245a524684955ceb7d484edada"/>
+      <WTDateRange @bind-Value="@Model.Searcher.LeaveTime"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.StudentID"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.BedNum"/>
+      <WTDateRange @bind-Value="@Model.Searcher.CreateTime"/>
+      <WTDateRange @bind-Value="@Model.Searcher.UpdateTime"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.CreateBy"/>
+      <BootstrapInput @bind-Value="@Model.Searcher.UpdateBy"/>
+    </Row>
+
+  </ValidateForm>
+</WTSearchPanel>
+
+
+<Table @ref="StudentListVMdataTable" TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View" OnQueryAsync="StudentListVMOnSearchStudent" 
+                IsStriped="true" IsBordered="true" ShowRefresh="false" ShowExtendEditButton="false" ShowExtendDeleteButton="false" 
+                ShowToolbar="true" IsMultipleSelect="true" ShowExtendButtons="true"
+                ShowDefaultButtons="false" IsPagination="true">
+  <TableColumns>
+    <TableColumn @bind-Field="@context.Student_StudentName" Text="@WtmBlazor.Localizer["Page.学生姓名"]" />
+    <TableColumn @bind-Field="@context.Student_Department" Text="@WtmBlazor.Localizer["Page.所在院系"]" />
+    <TableColumn @bind-Field="@context.Student_Gender" Text="@WtmBlazor.Localizer["_Admin.Gender"]" />
+    <TableColumn @bind-Field="@context.Student_BirthDate" Text="@WtmBlazor.Localizer["Page.生日"]" />
+    <TableColumn @bind-Field="@context.Student_Telephone" Text="@WtmBlazor.Localizer["Page.电话"]" />
+    <TableColumn @bind-Field="@context.Student_DormitoryNum" Text="@WtmBlazor.Localizer["Page.宿舍号"]" />
+    <TableColumn @bind-Field="@context.Student_RoomNum" Text="@WtmBlazor.Localizer["Page.房间号"]" />
+    <TableColumn @bind-Field="@context.Student_WhetherLeave" Text="@WtmBlazor.Localizer["Page.是否离开"]" />
+    <TableColumn @bind-Field="@context.Student_LeaveTime" Text="@WtmBlazor.Localizer["Page.离开时间"]" />
+    <TableColumn @bind-Field="@context.Student_StudentID" Text="@WtmBlazor.Localizer["Page.学生学号"]" />
+    <TableColumn @bind-Field="@context.Student_BedNum" Text="@WtmBlazor.Localizer["Page.床位号"]" />
+    <TableColumn @bind-Field="@context.Student_CreateTime" Text="@WtmBlazor.Localizer["_Admin.CreateTime"]" />
+    <TableColumn @bind-Field="@context.Student_UpdateTime" Text="@WtmBlazor.Localizer["_Admin.UpdateTime"]" />
+    <TableColumn @bind-Field="@context.Student_CreateBy" Text="@WtmBlazor.Localizer["_Admin.CreateBy"]" />
+    <TableColumn @bind-Field="@context.Student_UpdateBy" Text="@WtmBlazor.Localizer["_Admin.UpdateBy"]" />
+  </TableColumns>
+
+  <RowButtonTemplate>
+    @if (IsAccessable("/api/BasicData/Student/Edit"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-pencil-square" Color="Color.Warning" Text="@WtmBlazor.Localizer["Sys.Edit"]"  OnClick="()=>OnEditClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Student/{id}"))
+    {
+        <TableCellButton Size="Size.ExtraSmall" Icon="fa fa-info-circle" Color="Color.Info" Text="@WtmBlazor.Localizer["Page.详情"]"  OnClick="()=>OnDetailsClick(context)" />
+    }
+    @if (IsAccessable("/api/BasicData/Student/BatchDelete"))
+    {
+        <PopConfirmButton OnConfirm="() => OnDeleteClick(context)" Size="Size.ExtraSmall" Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.DeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.Delete"]" 
+            ConfirmButtonColor="Color.Danger" />
+    }
+  </RowButtonTemplate>
+  <TableToolbarTemplate>
+    @if (IsAccessable("/api/BasicData/Student/Create"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View" Icon="fa fa-plus" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Create"]"  OnClickCallback="(x)=>OnCreateClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Student/BatchDelete"))
+    {
+        <TableToolbarPopconfirmButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View"
+             Icon="fa fa-trash" Color="Color.Danger" Text="@WtmBlazor.Localizer["Sys.Delete"]" Content="@WtmBlazor.Localizer["Sys.BatchDeleteConfirm"]" CloseButtonText="@WtmBlazor.Localizer["Sys.Close"]" ConfirmButtonText="@WtmBlazor.Localizer["Sys.BatchDelete"]" 
+            OnConfirm="@OnBatchDeleteClick" ConfirmButtonColor="Color.Danger"/>
+    }
+    @if (IsAccessable("/api/BasicData/Student/BatchEdit"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View" Icon="fa fa-pencil-square" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.BatchEdit"]"  OnClickCallback="(x)=>OnBatchEditClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Student/Import"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View" Icon="fa fa-tasks" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Import"]"  OnClickCallback="(x)=>OnImportClick()" />
+    }
+    @if (IsAccessable("/api/BasicData/Student/StudentExportExcel"))
+    {
+        <TableToolbarButton TItem="DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View" Icon="fa fa-arrow-circle-down" Color="Color.Primary" Text="@WtmBlazor.Localizer["Sys.Export"]" OnClickCallback="(x)=>OnExportClick()" IsAsync="true" />
+    }
+  </TableToolbarTemplate>
+
+</Table>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private StudentListVM Model = new StudentListVM();
+    private Table<DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View> StudentListVMdataTable;
+    private async Task StudentListVMDoSearch()
+    {
+        await StudentListVMdataTable.QueryAsync();
+    }
+    private async Task<QueryData<DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View>> StudentListVMOnSearchStudent(QueryPageOptions opts)
+    {
+            
+        return await StartSearch<DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View>("/api/BasicData/Student/SearchStudent", Model.Searcher, opts);
+    }
+    private async Task OnCreateClick()
+    {
+        var id = StudentListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Create>(@WtmBlazor.Localizer["Sys.Create"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await StudentListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnEditClick(DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View item)
+    {
+        if (await OpenDialog<Edit>(@WtmBlazor.Localizer["Sys.Edit"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await StudentListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDetailsClick(DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View item)
+    {
+        if (await OpenDialog<Details>(@WtmBlazor.Localizer["Page.详情"], x => x.id == item.ID.ToString(), isMax:false) == DialogResult.Yes)
+        {
+            await StudentListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnDeleteClick(DormitoryManagementSystem.ViewModel.BasicData.StudentVMs.Student_View item)
+    {
+        await PostsData(new List<string> { item.ID.ToString() }, $"/api/BasicData/Student/batchdelete", (s) => "Sys.OprationSuccess");
+        await StudentListVMdataTable.QueryAsync();
+    }
+
+    private async Task OnBatchDeleteClick()
+    {
+        if (StudentListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await PostsData(StudentListVMdataTable.SelectedRows.Select(x => x.ID).ToList(), $"/api/BasicData/Student/batchdelete", (s) => WtmBlazor.Localizer["Sys.BatchDeleteSuccess", s]);
+            await StudentListVMdataTable.QueryAsync();
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnBatchEditClick()
+    {
+        if (StudentListVMdataTable.SelectedRows?.Any() == true)
+        {
+            if (await OpenDialog<BatchEdit>(WtmBlazor.Localizer["Sys.BatchEdit"], x => x.ids == StudentListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToArray(), isMax:false) == DialogResult.Yes)
+            {
+                await StudentListVMdataTable.QueryAsync();
+            }
+        }
+        else
+        {
+            await WtmBlazor.Toast.Information(WtmBlazor.Localizer["Sys.Info"], WtmBlazor.Localizer["Sys.SelectOneRowMin"]);
+        }
+    }
+
+    private async Task OnImportClick()
+    {
+        var id = StudentListVMdataTable.SelectedRows?.Select(x => x.ID.ToString())?.FirstOrDefault();
+        if (await OpenDialog<Import>(@WtmBlazor.Localizer["Sys.Import"], x => x.id == (id ?? ""), isMax:false) == DialogResult.Yes)
+        {
+            await StudentListVMdataTable.QueryAsync();
+        }
+    }
+
+    private async Task OnExportClick()
+    {
+        if (StudentListVMdataTable.SelectedRows?.Any() == true)
+        {
+            await Download("/api/BasicData/Student/StudentExportExcelByIds", StudentListVMdataTable.SelectedRows.Select(x => x.ID.ToString()).ToList());
+        }
+        else
+        {
+            await Download("/api/BasicData/Student/StudentExportExcel", Model.Searcher);
+        }
+    }
+
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+
+        await base.OnInitializedAsync();
+    }
+}

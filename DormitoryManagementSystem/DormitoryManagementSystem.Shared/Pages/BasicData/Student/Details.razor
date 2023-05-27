@@ -1,0 +1,68 @@
+﻿
+@page "/BasicData/Student/Details"
+@using DormitoryManagementSystem.ViewModel.BasicData.StudentVMs
+@using System.ComponentModel.DataAnnotations
+@inherits BasePage
+
+<div>
+  <ValidateForm @ref="vform" Model="@Model" OnValidSubmit="@Submit" >
+    <Row ItemsPerRow="ItemsPerRow.Two" RowType="RowType.Normal">
+      <Display @bind-Value="@Model.Entity.StudentName"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.Department"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.Gender"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.BirthDate"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.Telephone"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.DormitoryNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.RoomNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.WhetherLeave"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.LeaveTime"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.StudentID"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.BedNum"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.CreateTime"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.UpdateTime"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.CreateBy"  ShowLabel="true"/>
+      <Display @bind-Value="@Model.Entity.UpdateBy"  ShowLabel="true"/>
+    </Row>
+
+    <div class="modal-footer table-modal-footer">
+      <Button OnClick="OnClose" Text="@WtmBlazor.Localizer["Sys.Close"]"/>
+    </div>
+
+  </ValidateForm>
+
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    [Parameter]
+    public string[] ids { get; set; }
+    private StudentVM Model = new StudentVM();
+    private ValidateForm vform { get; set; }
+    private async Task Submit(EditContext context)
+    {
+                        
+        
+        await PostsForm(vform, "/api/BasicData/Student/Edit", (s) => "Sys.OprationSuccess");
+    }
+
+    public void OnClose()
+    {
+        CloseDialog();
+    }
+    
+    protected override async Task OnInitializedAsync()
+    {
+        
+        
+        if (id != "")
+        {
+            var rv = await WtmBlazor.Api.CallAPI<StudentVM>($"/api/BasicData/Student/{id}");
+            Model = rv.Data;
+        }
+
+        await base.OnInitializedAsync();
+    }
+}
