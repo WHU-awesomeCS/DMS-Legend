@@ -30,7 +30,7 @@ namespace DormitoryManagementSystem.Model.BasicData
         [StringLength(18, ErrorMessage = "Validate.{0}stringmax{1}")]
         [Comment("身份证号")]
         [Required(ErrorMessage = "Validate.{0}required")]
-        [RegularExpression("^d{17}[dXx]$", ErrorMessage = "Validate.{0}formaterror")]
+        [RegularExpression("^(\\d{17})([0-9]|X)$", ErrorMessage = "Validate.{0}formaterror")]
         public string IdentityID { get; set; }
         [Display(Name = "_Model._Application._StatTime")]
         [Comment("开始时间")]
