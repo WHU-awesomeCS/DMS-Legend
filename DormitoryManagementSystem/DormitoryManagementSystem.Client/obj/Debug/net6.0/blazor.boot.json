@@ -278,7 +278,7 @@
       "netstandard.dll": "sha256-yWufW5W4SSfjocBcWTEDqnFwTd\/VYtLMc2Y9mPmlggc=",
       "System.Private.CoreLib.dll": "sha256-H009wzPwRoDZlwvpN4KLCsUwN7Y1AmjKB3PIEHA7ObQ=",
       "DormitoryManagementSystem.Model.dll": "sha256-6oYy2pRJRLpWQDhxUjyUJFm\/xWUiQD\/yuuLGd\/GhHNc=",
-      "DormitoryManagementSystem.Shared.dll": "sha256-5D7pJj9ptfpx7cA2G7xK34yatIRbeSxs58qHa1PX2QY=",
+      "DormitoryManagementSystem.Shared.dll": "sha256-0Dwg2rbe+epgGyQUmtlhSrxDLBruCP0E4+SkXdBc1og=",
       "DormitoryManagementSystem.ViewModel.dll": "sha256-oqYOSi5\/mvV5EG\/BYwLnhmcUm24dF+QPKw3VCbfDlXA=",
       "DormitoryManagementSystem.Client.dll": "sha256-VRjTTRKkAjLHNiXEqZamC3P9TLJ1r+qUVXan2AQIeDc="
     },
@@ -286,7 +286,7 @@
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "DormitoryManagementSystem.Shared.pdb": "sha256-koXHWZLH+P+CoUsxP6F2u1CsxYElYkWj\/Dcb33t\/TSM=",
+      "DormitoryManagementSystem.Shared.pdb": "sha256-hq0mnK6kpwI1X0T\/eE0K2Nq6kjoXGelawjGj3pa3DIo=",
       "DormitoryManagementSystem.Model.pdb": "sha256-kChJEWgjxmeiNYz0Wwlu7pjAoga1\/FhlwjgktAG685A=",
       "DormitoryManagementSystem.ViewModel.pdb": "sha256-MLB2aujo9BNP+\/svAY6e0H3pEc0jBctG79p27olCFbA=",
       "DormitoryManagementSystem.Client.pdb": "sha256-+vtHphIhsdY07CDDaIwqdFnYI9mb2XwHhBPfwtg9PsI="
@@ -308,10 +308,10 @@
     },
     "satelliteResources": {
       "en": {
-        "en\/DormitoryManagementSystem.Shared.resources.dll": "sha256-UPvOBa32rgTcvAZKsPROvjsoowwBQrkwvAxW0BgrsvE="
+        "en\/DormitoryManagementSystem.Shared.resources.dll": "sha256-W8VCODrNwnPhV5n\/Tc2pLGTj7z+u3FvZd2oXht5vGYQ="
       },
       "zh": {
-        "zh\/DormitoryManagementSystem.Shared.resources.dll": "sha256-CXZVZsShBth7JQ3qpbkYyKq5SF5XUrEXFYyfGKNDEJ8="
+        "zh\/DormitoryManagementSystem.Shared.resources.dll": "sha256-PqhZjlb3r87mAVA9z\/5WGNRBIsLRRzUOK5hdLp2Z8eQ="
       }
     }
   }
