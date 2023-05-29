@@ -12716,11 +12716,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\DormitoryManagementSystem.Test.csproj",
+      "projectUniqueName": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\DormitoryManagementSystem.Test.csproj",
       "projectName": "DormitoryManagementSystem.Test",
-      "projectPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\DormitoryManagementSystem.Test.csproj",
+      "projectPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\DormitoryManagementSystem.Test.csproj",
       "packagesPath": "C:\\Users\\2021\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\obj\\",
+      "outputPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\2021\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12737,8 +12737,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem\\DormitoryManagementSystem.csproj": {
-              "projectPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem\\DormitoryManagementSystem.csproj"
+            "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem\\DormitoryManagementSystem.csproj": {
+              "projectPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem\\DormitoryManagementSystem.csproj"
             }
           }
         }

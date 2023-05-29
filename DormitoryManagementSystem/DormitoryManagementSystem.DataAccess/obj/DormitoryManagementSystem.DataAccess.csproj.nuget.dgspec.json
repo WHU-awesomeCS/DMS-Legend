@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj": {}
+    "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj": {
+    "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj",
         "projectName": "DormitoryManagementSystem.DataAccess",
-        "projectPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj",
+        "projectPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\DormitoryManagementSystem.DataAccess.csproj",
         "packagesPath": "C:\\Users\\2021\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2021\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj": {
-                "projectPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj"
+              "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj": {
+                "projectPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj": {
+    "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
+        "projectUniqueName": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
         "projectName": "DormitoryManagementSystem.Model",
-        "projectPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
+        "projectPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
         "packagesPath": "C:\\Users\\2021\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\obj\\",
+        "outputPath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2021\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1125,43 +1125,43 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-AtrUhLcYYSbjycRM5qRJLOPZb\/17HR9PyfTPBNBidb4=",
+      "hash": "sha256-\/GLOwDVklDeHMAPUxJ56FDq5ixeMRv\/I+Dh2I9Nuh2k=",
       "url": "_framework\/DormitoryManagementSystem.Model.dll"
     },
     {
-      "hash": "sha256-T3+9U3tp9NNnbHe80qk0\/VglSTrq5efaitrbK4ELEyA=",
+      "hash": "sha256-u5J4vkilIlsUXYijUyaIJhbFQk0DIXih6q+UQ5yR9xM=",
       "url": "_framework\/DormitoryManagementSystem.Shared.dll"
     },
     {
-      "hash": "sha256-cKctEW4cPml\/01v0ZbS3eKU0SRKnpG7x3mzJY35AH74=",
+      "hash": "sha256-JmHm044rWp3pABgFCuC+tLapEiCci0JBxd8ynfmHyXg=",
       "url": "_framework\/DormitoryManagementSystem.ViewModel.dll"
     },
     {
-      "hash": "sha256-q8XTLoRGjKJTAdEpTA5pCiUBa1iN\/jae7KGzYQG5i1I=",
+      "hash": "sha256-Wa0RY4jzq0JBm2\/qnyuazZoYtjxtpNnTc+cTZB8Xxmk=",
       "url": "_framework\/DormitoryManagementSystem.Shared.pdb"
     },
     {
-      "hash": "sha256-CVipAXqlfhUJv8a6vPN7gbID68vF63efElzX8iZxkgI=",
+      "hash": "sha256-DfCQTCcPxaQuHp3PlJBHy61vxBzqreGua1X70yBBgP0=",
       "url": "_framework\/DormitoryManagementSystem.Model.pdb"
     },
     {
-      "hash": "sha256-pGyD0CMsJVWSImQFqqwnvuBhHwSpKKKSOGL4oXxqqao=",
+      "hash": "sha256-DNYVWEGzSG6LIXbX60oEAgQ+udv7LbMICWPeIwtLidE=",
       "url": "_framework\/DormitoryManagementSystem.ViewModel.pdb"
     },
     {
-      "hash": "sha256-AAAJvRbNR1e1o7WlNA5cG5R96cJNJZlCgLpxusaN3yY=",
+      "hash": "sha256-c3x8tEi7JcoTVKKP4HltP+xIhZfE1PbzBBna03VoANg=",
       "url": "_framework\/en\/DormitoryManagementSystem.Shared.resources.dll"
     },
     {
-      "hash": "sha256-wkIjwKV0DU+jm3Gck4deB7jnsyW3gUsXGnKl3XKmzI8=",
+      "hash": "sha256-15wyBqSXURE0\/ySfkJNnJ2YhpyPf44Z9HEBpIlIli0o=",
       "url": "_framework\/zh\/DormitoryManagementSystem.Shared.resources.dll"
     },
     {
-      "hash": "sha256-ASxheUT4XGKB0Qjnz2gvzPmOb9ncYB4Ux9Fd7gKCrZk=",
+      "hash": "sha256-WbV8cHibNRxsZcyUy+1gVLq\/gxV7IrVsScNhBvOmp4I=",
       "url": "_framework\/DormitoryManagementSystem.Client.dll"
     },
     {
-      "hash": "sha256-CONt3\/oJga5n9ty94TB4p8lxOQlrf4NfW58XyVHNMAE=",
+      "hash": "sha256-CYuwjgDd27EGL85RpOSeyyL+tcX3K7IQ6tORn7YWBzE=",
       "url": "_framework\/DormitoryManagementSystem.Client.pdb"
     },
     {
@@ -1169,7 +1169,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-vnTUBxF6mxmlko7UK9DcnlCqbOBsjpvpTERsr3s4dQI=",
+      "hash": "sha256-KQFP5FadTy0601nJ5qYIRELTHHNDY9Z+b+\/nFGIULXo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1545,5 +1545,5 @@
       "url": "_content\/DormitoryManagementSystem.Shared\/js\/common.js"
     }
   ],
-  "version": "eKz9Xwwx"
+  "version": "2nzgH2tR"
 };

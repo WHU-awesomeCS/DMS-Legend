@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p76u8C6U0DQB6g76vzo1Kzo69cfRc5gfS6+JTQMJNp4=",
+  "Hash": "rA7RErEC6QlEE7hh4+pyg3/uo3i23k2IfT+NRv1dZmc=",
   "Source": "DormitoryManagementSystem.Shared",
   "BasePath": "_content/DormitoryManagementSystem.Shared",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "DormitoryManagementSystem.Shared\\wwwroot",
       "Source": "DormitoryManagementSystem.Shared",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "Pattern": "**"
     }
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate-form.js"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "DormitoryManagementSystem.Shared.styles.css",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "DormitoryManagementSystem.Shared.bundle.scp.css",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\loading.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\loading.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "css/loading.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\css\\loading.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\site.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.eot",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.eot",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.eot",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.eot"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.svg",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.svg",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.svg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.svg"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.ttf",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.woff",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.woff"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.woff2",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/all.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\images\\logo.png",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\js\\common.js",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\js\\common.js",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "js/common.js",
       "AssetKind": "All",

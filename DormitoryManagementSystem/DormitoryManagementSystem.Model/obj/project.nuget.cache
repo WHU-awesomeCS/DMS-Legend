@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tvZ2kvgkvGUWWg5WUL+kCtvLbhVDvyWke9h7LrLZkChRqGqEUWtoatBOSnOlOQ+uZ3OCFcxaJs/w3wtkcm2GGA==",
+  "dgSpecHash": "dfwIf08iYmyijmxATSFIePfHhwCYU0a+UrxFEWyUMu2Tydzz2oorPoOhUxakTjAKcrx0Hs4/Fa8JXw5DrLgfKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2021\\Desktop\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
+  "projectFilePath": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Model\\DormitoryManagementSystem.Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2021\\.nuget\\packages\\aliyun.oss.sdk.netcore\\2.13.0\\aliyun.oss.sdk.netcore.2.13.0.nupkg.sha512",
     "C:\\Users\\2021\\.nuget\\packages\\dotnetcore.npoi\\1.2.3\\dotnetcore.npoi.1.2.3.nupkg.sha512",
