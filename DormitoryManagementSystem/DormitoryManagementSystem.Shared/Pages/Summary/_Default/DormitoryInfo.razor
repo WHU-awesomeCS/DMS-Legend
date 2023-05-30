@@ -48,7 +48,7 @@
             var yCount = cd.GroupBy(x => x.Series).ToList();
             
             ds.Options.X.Title = @WtmBlazor.Localizer["Page.宿舍号"];
-            ds.Options.Y.Title = @WtmBlazor.Localizer["Page.学生学号"];
+            ds.Options.Y.Title = @WtmBlazor.Localizer["Page.学生人数"];
             ds.Labels = categorys;
             foreach (var item in yCount)
             {
