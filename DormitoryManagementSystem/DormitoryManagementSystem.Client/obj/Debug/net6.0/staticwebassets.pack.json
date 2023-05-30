@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\build-gz\\S8nMQB3U.gz",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\build-gz\\Nd+90v+8.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Client.styles.css",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Client.styles.css",
       "PackagePath": "staticwebassets\\DormitoryManagementSystem.Client.styles.css"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\service-worker-assets.js",
       "PackagePath": "staticwebassets\\service-worker-assets.js"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\obj\\Debug\\net6.0\\service-worker\\service-worker.published.js",
       "PackagePath": "staticwebassets\\service-worker.js"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\appsettings.json",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\appsettings.json",
       "PackagePath": "staticwebassets\\appsettings.json"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\fav.ico",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\fav.ico",
       "PackagePath": "staticwebassets\\fav.ico"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\manifest.json",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\manifest.json",
       "PackagePath": "staticwebassets\\manifest.json"
     },
     {
-      "Id": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\pwaicon.png",
+      "Id": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Client\\wwwroot\\pwaicon.png",
       "PackagePath": "staticwebassets\\pwaicon.png"
     },
     {

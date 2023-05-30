@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DormitoryManagementSystem
 build_property.RootNamespace = DormitoryManagementSystem
-build_property.ProjectDir = C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem\
+build_property.ProjectDir = C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem
+build_property.MSBuildProjectDirectory = C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem/Pages/_Host.cshtml]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

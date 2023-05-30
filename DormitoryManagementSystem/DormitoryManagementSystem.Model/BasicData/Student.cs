@@ -34,7 +34,7 @@ namespace DormitoryManagementSystem.Model.BasicData
         [Display(Name = "_Model._Student._BirthDate")]
         [Comment("生日")]
         [Required(ErrorMessage = "Validate.{0}required")]
-        [RegularExpression("^(19|20)d{2}(0[1-9]|1[012])(0[1-9]|[12][0-9]|3[01])$", ErrorMessage = "Validate.{0}formaterror")]
+        [RegularExpression("^(19|20)(9[0-9]|0[0-9])(0[1-9]|1[0-2])([0-2][0-9]|30)$", ErrorMessage = "Validate.{0}formaterror")]
         public string BirthDate { get; set; }
         [Display(Name = "_Model._Student._Telephone")]
         [Comment("电话")]

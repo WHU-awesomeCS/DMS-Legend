@@ -9,309 +9,309 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DormitoryManagementSystem.Shared
 build_property.RootNamespace = DormitoryManagementSystem.Shared
-build_property.ProjectDir = C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\
+build_property.ProjectDir = C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared
+build_property.MSBuildProjectDirectory = C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/App.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/BatchEdit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/BatchEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXEJhdGNoRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXEltcG9ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Application/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXEFwcGxpY2F0aW9uXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/BatchEdit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/BatchEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxCYXRjaEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxJbXBvcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Dormitory/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXERvcm1pdG9yeVxJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/BatchEdit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/BatchEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXEJhdGNoRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXEltcG9ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Staff/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0YWZmXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/BatchEdit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/BatchEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcQmF0Y2hFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcSW1wb3J0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/BasicData/Student/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzaWNEYXRhXFN0dWRlbnRcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index_en.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index_en.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhfZW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index_zh.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Index_zh.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXhfemgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Summary/_Default/DormitoryInfo.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Summary/_Default/DormitoryInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbWFyeVxfRGVmYXVsdFxEb3JtaXRvcnlJbmZvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Summary/_Default/StudentSafetyInfo.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/Summary/_Default/StudentSafetyInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VtbWFyeVxfRGVmYXVsdFxTdHVkZW50U2FmZXR5SW5mby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/ActionLog/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/ActionLog/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEFjdGlvbkxvZ1xEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/ActionLog/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/ActionLog/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEFjdGlvbkxvZ1xJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXERhdGFQcml2aWxlZ2VcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXERhdGFQcml2aWxlZ2VcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXERhdGFQcml2aWxlZ2VcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/DataPrivilege/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXERhdGFQcml2aWxlZ2VcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya0dyb3VwXENyZWF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya0dyb3VwXERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya0dyb3VwXEVkaXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya0dyb3VwXEltcG9ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkGroup/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya0dyb3VwXEluZGV4LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya01lbnVcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya01lbnVcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya01lbnVcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkMenu/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya01lbnVcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcSW1wb3J0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/PageFunction.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkRole/PageFunction.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1JvbGVcUGFnZUZ1bmN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1RlbmFudFxDcmVhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1RlbmFudFxEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1RlbmFudFxFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1RlbmFudFxJbXBvcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkTenant/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1RlbmFudFxJbmRleC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/BatchEdit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/BatchEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcQmF0Y2hFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Create.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Create.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcQ3JlYXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Details.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Details.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcRGV0YWlscy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Edit.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Edit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Import.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Import.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcSW1wb3J0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Index.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Password.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Pages/_Admin/FrameworkUser/Password.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0FkbWluXEZyYW1ld29ya1VzZXJcUGFzc3dvcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/EmptyLayout.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/EmptyLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEVtcHR5TGF5b3V0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Outside.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Outside.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE91dHNpZGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Password.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Password.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFBhc3N3b3JkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/RemoteEntry.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/RemoteEntry.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlbW90ZUVudHJ5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTDateRange.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTDateRange.razor]
 build_metadata.AdditionalFiles.TargetPath = V3RtQmxhem9yVXRpbHNcV1REYXRlUmFuZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTSearchPanel.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTSearchPanel.razor]
 build_metadata.AdditionalFiles.TargetPath = V3RtQmxhem9yVXRpbHNcV1RTZWFyY2hQYW5lbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTSimpleUpload.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTSimpleUpload.razor]
 build_metadata.AdditionalFiles.TargetPath = V3RtQmxhem9yVXRpbHNcV1RTaW1wbGVVcGxvYWQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTUploadFile.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTUploadFile.razor]
 build_metadata.AdditionalFiles.TargetPath = V3RtQmxhem9yVXRpbHNcV1RVcGxvYWRGaWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTUploadImage.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/WtmBlazorUtils/WTUploadImage.razor]
 build_metadata.AdditionalFiles.TargetPath = V3RtQmxhem9yVXRpbHNcV1RVcGxvYWRJbWFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/_Imports.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Login.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-8wydqeakr2
 
-[C:/Users/2021/Desktop/GitHub/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/MainLayout.razor]
+[C:/Users/Z Christine/Desktop/GitHub/DMS-Legend/DMS-Legend/DormitoryManagementSystem/DormitoryManagementSystem.Shared/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-mym2ymtj79

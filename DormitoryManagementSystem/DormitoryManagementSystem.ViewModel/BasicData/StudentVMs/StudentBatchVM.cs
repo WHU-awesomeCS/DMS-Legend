@@ -41,7 +41,7 @@ namespace DormitoryManagementSystem.ViewModel.BasicData.StudentVMs
         [Display(Name = "_Model._Student._Gender")]
         public GenderEnum? Gender { get; set; }
         [Display(Name = "_Model._Student._BirthDate")]
-        public string BirthDate { get; set; }
+        public DateTime? BirthDate { get; set; }
         [Display(Name = "_Model._Student._Telephone")]
         public string Telephone { get; set; }
         [Display(Name = "_Model._Student._WhetherLeave")]

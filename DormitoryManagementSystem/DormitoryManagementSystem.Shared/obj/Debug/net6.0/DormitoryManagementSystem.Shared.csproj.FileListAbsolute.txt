@@ -70,3 +70,39 @@ C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManag
 C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\refint\DormitoryManagementSystem.Shared.dll
 C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.pdb
 C:\Users\2021\Desktop\GitHub\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\ref\DormitoryManagementSystem.Shared.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Shared.staticwebassets.runtime.json
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Shared.deps.json
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Shared.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Shared.pdb
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\en\DormitoryManagementSystem.Shared.resources.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\zh\DormitoryManagementSystem.Shared.resources.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Model.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.ViewModel.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.ViewModel.pdb
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\bin\Debug\net6.0\DormitoryManagementSystem.Model.pdb
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.Resources.Program.en.resources
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.Resources.Program.zh.resources
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.csproj.GenerateResource.cache
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.AssemblyInfo.cs
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\en\DormitoryManagementSystem.Shared.resources.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\zh\DormitoryManagementSystem.Shared.resources.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets\msbuild.DormitoryManagementSystem.Shared.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets\msbuild.build.DormitoryManagementSystem.Shared.props
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.DormitoryManagementSystem.Shared.props
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.DormitoryManagementSystem.Shared.props
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\scopedcss\Shared\Login.razor.rz.scp.css
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\scopedcss\bundle\DormitoryManagementSystem.Shared.styles.css
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\scopedcss\projectbundle\DormitoryManagementSystem.Shared.bundle.scp.css
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.csproj.CopyComplete
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\refint\DormitoryManagementSystem.Shared.dll
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\DormitoryManagementSystem.Shared.pdb
+C:\Users\Z Christine\Desktop\GitHub\DMS-Legend\DMS-Legend\DormitoryManagementSystem\DormitoryManagementSystem.Shared\obj\Debug\net6.0\ref\DormitoryManagementSystem.Shared.dll
