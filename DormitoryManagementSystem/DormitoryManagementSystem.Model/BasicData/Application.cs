@@ -43,7 +43,7 @@ namespace DormitoryManagementSystem.Model.BasicData
         [Display(Name = "_Model._Application._StatusProcess")]
         [Comment("申请状态")]
         [Required(ErrorMessage = "Validate.{0}required")]
-        public ProcessStatusEnum? StatusProcess { get; set; }
+        public ProcessStatusEnum? StatusProcess { get; set; } = ProcessStatusEnum.Todoo;
 
 	}
 

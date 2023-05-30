@@ -18,11 +18,11 @@ namespace DormitoryManagementSystem.BasicData.Controllers
                                                 
         [ActionDescription("Sys.Search")]
         [HttpPost("[action]")]
-        public IActionResult SearchApplication(DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.ApplicationSearcher searcher)
+        public IActionResult SearchApplication(ApplicationSearcher searcher)
         {
             if (ModelState.IsValid)
             {
-                var vm = Wtm.CreateVM<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.ApplicationListVM>();
+                var vm = Wtm.CreateVM<ApplicationListVM>();
                 vm.Searcher = searcher;
                 return Content(vm.GetJson(enumToString: false));
             }
@@ -34,9 +34,9 @@ namespace DormitoryManagementSystem.BasicData.Controllers
 
         [ActionDescription("Sys.Export")]
         [HttpPost("[action]")]
-        public IActionResult ApplicationExportExcel(DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.ApplicationSearcher searcher)
+        public IActionResult ApplicationExportExcel(ApplicationSearcher searcher)
         {
-            var vm = Wtm.CreateVM<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.ApplicationListVM>();
+            var vm = Wtm.CreateVM<ApplicationListVM>();
             vm.Searcher = searcher;
             vm.SearcherMode = ListVMSearchModeEnum.Export;
             return vm.GetExportData();
@@ -46,7 +46,7 @@ namespace DormitoryManagementSystem.BasicData.Controllers
         [HttpPost("[action]")]
         public IActionResult ApplicationExportExcelByIds(string[] ids)
         {
-            var vm = Wtm.CreateVM<DormitoryManagementSystem.ViewModel.BasicData.ApplicationVMs.ApplicationListVM>();
+            var vm = Wtm.CreateVM<ApplicationListVM>();
             if (ids != null && ids.Count() > 0)
             {
                 vm.Ids = new List<string>(ids);

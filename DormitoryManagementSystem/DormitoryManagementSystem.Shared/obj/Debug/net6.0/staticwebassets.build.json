@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aXl9jz98/IvEccTSjVeN+mz6RCfgrKnivDjLBzVSySo=",
+  "Hash": "rA7RErEC6QlEE7hh4+pyg3/uo3i23k2IfT+NRv1dZmc=",
   "Source": "DormitoryManagementSystem.Shared",
   "BasePath": "_content/DormitoryManagementSystem.Shared",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "DormitoryManagementSystem.Shared\\wwwroot",
       "Source": "DormitoryManagementSystem.Shared",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\css\\bootstrap.blazor.chart.bundle.min.css",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\css\\bootstrap.blazor.chart.bundle.min.css",
       "SourceId": "BootstrapBlazor.Chart",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.Chart",
       "RelativePath": "css/bootstrap.blazor.chart.bundle.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\css\\bootstrap.blazor.chart.bundle.min.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\css\\bootstrap.blazor.chart.bundle.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\js\\bootstrap.blazor.chart.bundle.min.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\js\\bootstrap.blazor.chart.bundle.min.js",
       "SourceId": "BootstrapBlazor.Chart",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.Chart",
       "RelativePath": "js/bootstrap.blazor.chart.bundle.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\js\\bootstrap.blazor.chart.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.chart\\7.0.1\\staticwebassets\\js\\bootstrap.blazor.chart.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.markdown.min.css",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.markdown.min.css",
       "SourceId": "BootstrapBlazor.Markdown",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.Markdown",
       "RelativePath": "css/bootstrap.blazor.markdown.min.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.markdown.min.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.markdown.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.markdown.min.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.markdown.min.js",
       "SourceId": "BootstrapBlazor.Markdown",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.Markdown",
       "RelativePath": "js/bootstrap.blazor.markdown.min.js",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.markdown.min.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.markdown\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.markdown.min.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.editor.min.css",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.editor.min.css",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "css/bootstrap.blazor.editor.min.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.editor.min.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\bootstrap.blazor.editor.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.eot",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.eot",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "css/font/summernote.eot",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.eot"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.eot"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.ttf",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.ttf",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "css/font/summernote.ttf",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.ttf"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "css/font/summernote.woff",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff2",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff2",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "css/font/summernote.woff2",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff2"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\css\\font\\summernote.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.editor.min.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.editor.min.js",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "js/bootstrap.blazor.editor.min.js",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.editor.min.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\bootstrap.blazor.editor.min.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\summernote-bs5.min.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\summernote-bs5.min.js",
       "SourceId": "BootstrapBlazor.SummerNote",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor.SummerNote",
       "RelativePath": "js/summernote-bs5.min.js",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\summernote-bs5.min.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor.summernote\\7.0.0\\staticwebassets\\js\\summernote-bs5.min.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\bootstrap.blazor.bundle.min.css",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\bootstrap.blazor.bundle.min.css",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "css/bootstrap.blazor.bundle.min.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\bootstrap.blazor.bundle.min.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\bootstrap.blazor.bundle.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\motronic.min.css",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\motronic.min.css",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "css/motronic.min.css",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\motronic.min.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\css\\motronic.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\js\\bootstrap.blazor.bundle.min.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\js\\bootstrap.blazor.bundle.min.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "js/bootstrap.blazor.bundle.min.js",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\js\\bootstrap.blazor.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\js\\bootstrap.blazor.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ajax.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ajax.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/ajax.js",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ajax.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ajax.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchor.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchor.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/anchor.js",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchor.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchor.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchorlink.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchorlink.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/anchorlink.js",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchorlink.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\anchorlink.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\autoredirect.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\autoredirect.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/autoredirect.js",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\autoredirect.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\autoredirect.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-component.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-component.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/base-component.js",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-component.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-component.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-dropdown.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-dropdown.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/base-dropdown.js",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-dropdown.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\base-dropdown.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\blazor-component.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\blazor-component.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/blazor-component.js",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\blazor-component.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\blazor-component.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\config.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\config.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/config.js",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\config.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\config.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\data.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\data.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/data.js",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\data.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\data.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\event-handler.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\event-handler.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/event-handler.js",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\event-handler.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\event-handler.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\index.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\index.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/index.js",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\index.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\index.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\manipulator.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\manipulator.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/manipulator.js",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\manipulator.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\manipulator.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\simple-component.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\simple-component.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/simple-component.js",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\simple-component.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\simple-component.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\utility.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\utility.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/base/utility.js",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\utility.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\base\\utility.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\button.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\button.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/button.js",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\button.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\button.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\carousel.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\carousel.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/carousel.js",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\carousel.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\carousel.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\confirm.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\confirm.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/confirm.js",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\confirm.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\confirm.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\console.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\console.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/console.js",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\console.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\console.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\download.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\download.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/download.js",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\download.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\download.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\drawer.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\drawer.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/drawer.js",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\drawer.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\drawer.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\dropdown.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\dropdown.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/dropdown.js",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\dropdown.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\dropdown.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\edit-dialog.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\edit-dialog.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/edit-dialog.js",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\edit-dialog.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\edit-dialog.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\fullscreen.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\fullscreen.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/fullscreen.js",
       "AssetKind": "All",
@@ -643,13 +643,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\fullscreen.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\fullscreen.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\icon-dialog.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\icon-dialog.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/icon-dialog.js",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\icon-dialog.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\icon-dialog.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-previewer.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-previewer.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/image-previewer.js",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-previewer.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-previewer.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-viewer.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-viewer.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/image-viewer.js",
       "AssetKind": "All",
@@ -694,13 +694,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-viewer.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\image-viewer.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\menu.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\menu.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/menu.js",
       "AssetKind": "All",
@@ -711,13 +711,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\menu.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\menu.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\modal.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\modal.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/modal.js",
       "AssetKind": "All",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\modal.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\modal.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\multi-select.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\multi-select.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/multi-select.js",
       "AssetKind": "All",
@@ -745,13 +745,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\multi-select.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\multi-select.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\popover.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\popover.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/popover.js",
       "AssetKind": "All",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\popover.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\popover.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\responsive.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\responsive.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/responsive.js",
       "AssetKind": "All",
@@ -779,13 +779,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\responsive.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\responsive.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ribbon-tab.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ribbon-tab.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/ribbon-tab.js",
       "AssetKind": "All",
@@ -796,13 +796,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ribbon-tab.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\ribbon-tab.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/select.js",
       "AssetKind": "All",
@@ -813,13 +813,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select-tree.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select-tree.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/select-tree.js",
       "AssetKind": "All",
@@ -830,13 +830,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select-tree.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\select-tree.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/table.js",
       "AssetKind": "All",
@@ -847,13 +847,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table-filter.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table-filter.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/table-filter.js",
       "AssetKind": "All",
@@ -864,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table-filter.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\table-filter.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\time-pick.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\time-pick.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/time-pick.js",
       "AssetKind": "All",
@@ -881,13 +881,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\time-pick.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\time-pick.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\toast.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\toast.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/toast.js",
       "AssetKind": "All",
@@ -898,13 +898,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\toast.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\toast.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\tooltip.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\tooltip.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/tooltip.js",
       "AssetKind": "All",
@@ -915,13 +915,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\tooltip.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\tooltip.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\upload.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\upload.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/upload.js",
       "AssetKind": "All",
@@ -932,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\upload.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\upload.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/validate.js",
       "AssetKind": "All",
@@ -949,13 +949,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate-form.js",
+      "Identity": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate-form.js",
       "SourceId": "BootstrapBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\",
       "BasePath": "_content/BootstrapBlazor",
       "RelativePath": "modules/validate-form.js",
       "AssetKind": "All",
@@ -966,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate-form.js"
+      "OriginalItemSpec": "C:\\Users\\2021\\.nuget\\packages\\bootstrapblazor\\7.2.4\\staticwebassets\\modules\\validate-form.js"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "DormitoryManagementSystem.Shared.styles.css",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DormitoryManagementSystem.Shared.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "DormitoryManagementSystem.Shared.bundle.scp.css",
       "AssetKind": "All",
@@ -1000,13 +1000,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DormitoryManagementSystem.Shared.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\loading.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\loading.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "css/loading.css",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\css\\loading.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\css\\site.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.eot",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.eot",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.eot",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.svg",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.svg",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.svg",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.ttf",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.woff",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font\\iconfont.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font/iconfont.woff2",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\font\\iconfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/all.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\all.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/all.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\all.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/brands.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\brands.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/brands.min.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\brands.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/fontawesome.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\fontawesome.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/fontawesome.min.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\fontawesome.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/regular.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\regular.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/regular.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\regular.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/solid.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\solid.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/solid.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\solid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/svg-with-js.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\svg-with-js.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/svg-with-js.min.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\svg-with-js.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-font-face.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-font-face.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-font-face.min.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-shims.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v4-shims.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v4-shims.min.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v4-shims.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v5-font-face.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v5-font-face.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\css\\v5-font-face.min.css",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/css/v5-font-face.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\css\\v5-font-face.min.css"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-v4compatibility.ttf",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "font-awesome/webfonts/fa-v4compatibility.woff2",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\images\\logo.png",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\images\\logo.png",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "images/logo.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\js\\common.js",
+      "Identity": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\js\\common.js",
       "SourceId": "DormitoryManagementSystem.Shared",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Z Christine\\Desktop\\GitHub\\DMS-Legend\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2021\\Desktop\\GitHub\\DMS-Legend\\DormitoryManagementSystem\\DormitoryManagementSystem.Shared\\wwwroot\\",
       "BasePath": "_content/DormitoryManagementSystem.Shared",
       "RelativePath": "js/common.js",
       "AssetKind": "All",
